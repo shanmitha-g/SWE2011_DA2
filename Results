@@ -1,0 +1,18 @@
+The distance map (also known as the Unified Distance Matrix or U-Matrix) represents the distance between neighboring neurons in the SOM grid. The colors in this map indicate how similar or different the neurons are:
+Dark areas: These represent small distances between neurons, implying that the data points mapped to these neurons are similar and potentially part of the same cluster.
+Lighter or brighter areas: These represent larger distances between neurons, indicating dissimilarity. These areas typically form the boundaries between clusters.
+
+
+The hit map shows how many data points are mapped to each neuron in the SOM:
+Higher hit counts: Neurons with higher hit counts are denser, meaning more data points are mapped to them. These areas represent more common or central patterns in the dataset.
+Lower hit counts: Neurons with fewer hits indicate more unique or rare data points. Neurons with no hits (empty neurons) may not represent any data points.
+
+Component planes visualize how each feature (variable) influences the SOM map. Each plane corresponds to one feature in the dataset, and the colors represent the values of that feature across the neurons:
+High values: Brighter or darker areas represent higher values of the feature for the corresponding neurons.
+Low values: Lighter or faded areas represent lower values of the feature.
+
+In the K-means clustering map of your Self-Organizing Map (SOM), the green, blue, and red circles represent different clusters identified by the K-means algorithm.
+These colors are used to visually differentiate between groups of neurons (or SOM nodes) that belong to distinct clusters.
+Green Circles: These circles enclose neurons that belong to one particular cluster. All the neurons in the green cluster are similar to each other based on the features in the dataset.
+Blue Circles: These circles represent another distinct cluster. The neurons enclosed within the blue circles are more similar to each other than to neurons in other clusters (e.g., green or red).
+Red Circles: Similarly, neurons within the red circles belong to a separate group or cluster. They share common characteristics that differentiate them from the other clusters (green and blue).
