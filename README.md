@@ -20,6 +20,9 @@ Features 1-11 as seen in the component planes.
 
 Column 12 is quality and olumn 13 is wine ID. Both have been excluded while training the SOM.
 
+'swe2011_da2.py' contains the code.
+PNGs of outputs are uploaded.
+Results explains the observation
 
 This project applies a Self-Organizing Map (SOM) to the wine quality dataset to visualize patterns in the data and cluster wines based on their chemical composition.
 
